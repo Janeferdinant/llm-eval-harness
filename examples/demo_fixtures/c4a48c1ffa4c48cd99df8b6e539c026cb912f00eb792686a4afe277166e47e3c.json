@@ -1,0 +1,17 @@
+{
+  "request_hash": "c4a48c1ffa4c48cd99df8b6e539c026cb912f00eb792686a4afe277166e47e3c",
+  "recorded_at": "2026-10-30",
+  "completion": {
+    "text": "H2O",
+    "tool_calls": [],
+    "data": null,
+    "input_tokens": 7,
+    "output_tokens": 1,
+    "latency_s": 0.2,
+    "ttft_s": null,
+    "model": "demo-model",
+    "model_digest": null,
+    "cost_usd": 0.0,
+    "billing": "local"
+  }
+}

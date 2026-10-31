@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-30",
+  "cli": "codex",
+  "cli_version": "codex-cli 0.166.0",
+  "synthetic": false,
+  "argv": [
+    "codex",
+    "exec",
+    "--json",
+    "--skip-git-repo-check",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "-s",
+    "read-only",
+    "-"
+  ],
+  "stdout": "{\"type\":\"thread.started\",\"thread_id\":\"01a18e3d-ebc0-7683-adec-3af3e431a30c\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"OK\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":17055,\"cached_input_tokens\":12416,\"cache_write_input_tokens\":0,\"output_tokens\":5,\"reasoning_output_tokens\":0}}\n"
+}

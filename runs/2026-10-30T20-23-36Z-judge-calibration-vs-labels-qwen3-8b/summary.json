@@ -1,0 +1,55 @@
+{
+  "run_id": "2026-10-30T20-23-36Z-judge-calibration-vs-labels-qwen3-8b",
+  "date": "2026-10-30",
+  "git_sha": "36432b3",
+  "dirty": true,
+  "status": "Verified",
+  "title": "Judge calibration vs your labels: qwen3:8b (busy machine)",
+  "machine": {
+    "cpu": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "busy": true
+  },
+  "rows": [
+    {
+      "name": "weighted kappa vs your labels, qwen3:8b",
+      "value": 0.8345588235294118,
+      "ci_low": 0.6815032254125883,
+      "ci_high": 0.9452014846860787,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "answer length vs judge score (Spearman), qwen3:8b",
+      "value": -0.2792384490495405,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "answer length vs your labels (Spearman), qwen3:8b",
+      "value": -0.19287923137475618,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "latency per judgement, qwen3:8b",
+      "value": 0.4229300739997416,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": "s"
+    },
+    {
+      "name": "cost per 100 judgements, API-equivalent (USD), qwen3:8b",
+      "value": 0.0,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": "USD"
+    }
+  ]
+}

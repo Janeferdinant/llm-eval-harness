@@ -1,0 +1,17 @@
+{
+  "request_hash": "e0b13594df02e510222d548bd5fdddedd04b6f5b04870bb20a40b1b7ca813b6a",
+  "recorded_at": "2026-10-30",
+  "completion": {
+    "text": "The sky is blue",
+    "tool_calls": [],
+    "data": null,
+    "input_tokens": 9,
+    "output_tokens": 4,
+    "latency_s": 0.2,
+    "ttft_s": null,
+    "model": "demo-model",
+    "model_digest": null,
+    "cost_usd": 0.0,
+    "billing": "local"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request_hash": "fdfa59ce94d1b886fbc448ba4ba36881f546e1fd1971c964a781dbf574dde43d",
+  "recorded_at": "2026-10-30",
+  "completion": {
+    "text": "Shakespeare",
+    "tool_calls": [],
+    "data": null,
+    "input_tokens": 5,
+    "output_tokens": 1,
+    "latency_s": 0.2,
+    "ttft_s": null,
+    "model": "demo-model",
+    "model_digest": null,
+    "cost_usd": 0.0,
+    "billing": "local"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-30",
+  "cli": "codex",
+  "cli_version": "codex-cli 0.166.0",
+  "synthetic": false,
+  "argv": [
+    "codex",
+    "exec",
+    "--json",
+    "--skip-git-repo-check",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "-s",
+    "read-only",
+    "-c",
+    "mcp_servers.tools.command=\"<HOME>\\\\Downloads\\\\ai-repos\\\\llm-eval-harness\\\\.venv\\\\Scripts\\\\python.exe\"",
+    "-c",
+    "mcp_servers.tools.args=[\"<HOME>\\\\Downloads\\\\ai-repos\\\\llm-eval-harness\\\\tests\\\\fixtures\\\\cli\\\\echo_mcp.py\"]",
+    "-c",
+    "mcp_servers.tools.default_tools_approval_mode=\"approve\"",
+    "-c",
+    "mcp_servers.tools.enabled_tools=[\"echo\"]",
+    "-"
+  ],
+  "stdout": "{\"type\":\"thread.started\",\"thread_id\":\"01a18e3e-49d9-72e3-a53a-a7dcfb8140fd\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"I’ll call the echo tool with `ping` and return its response.\\n\"}}\n{\"type\":\"item.started\",\"item\":{\"id\":\"item_1\",\"type\":\"mcp_tool_call\",\"server\":\"tools\",\"tool\":\"echo\",\"arguments\":{\"text\":\"ping\"},\"result\":null,\"error\":null,\"status\":\"in_progress\"}}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_1\",\"type\":\"mcp_tool_call\",\"server\":\"tools\",\"tool\":\"echo\",\"arguments\":{\"text\":\"ping\"},\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"echo: ping\"}],\"structured_content\":null},\"error\":null,\"status\":\"completed\"}}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_2\",\"type\":\"agent_message\",\"text\":\"echo: ping\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":51547,\"cached_input_tokens\":46336,\"cache_write_input_tokens\":0,\"output_tokens\":105,\"reasoning_output_tokens\":0}}\n"
+}

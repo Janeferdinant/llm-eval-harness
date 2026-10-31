@@ -1,0 +1,26 @@
+# Example: gate a change on an evaluation. This one runs the demo suite on recorded answers (a mock),
+# so it needs no model, no network and no secrets. Copy it into a repo and point it at your own suite
+# and system, with a committed baseline summary.json.
+name: eval-gate
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync
+      - name: Run the suite
+        run: >
+          uv run evalh run suites/demo --system examples.demo_system:answer
+          --metrics exact_match,token_f1 --out runs --title "demo (CI)" --allow-busy
+      - name: Gate against the committed baseline
+        run: >
+          uv run evalh gate --baseline tests/fixtures/demo_baseline
+          --candidate "$(ls -dt runs/*/ | head -1)" --max-drop 0.02

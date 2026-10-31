@@ -1,0 +1,21 @@
+{
+  "recorded_at": "2026-10-30",
+  "source": "constructed from the installed SDK response types; not recorded from the live API",
+  "body": {
+    "id": "msg_test",
+    "content": [
+      {
+        "text": "OK",
+        "type": "text"
+      }
+    ],
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "type": "message",
+    "usage": {
+      "input_tokens": 10,
+      "output_tokens": 2
+    }
+  }
+}

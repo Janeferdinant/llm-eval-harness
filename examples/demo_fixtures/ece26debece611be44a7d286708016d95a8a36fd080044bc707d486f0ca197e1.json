@@ -1,0 +1,17 @@
+{
+  "request_hash": "ece26debece611be44a7d286708016d95a8a36fd080044bc707d486f0ca197e1",
+  "recorded_at": "2026-10-30",
+  "completion": {
+    "text": "Paris",
+    "tool_calls": [],
+    "data": null,
+    "input_tokens": 6,
+    "output_tokens": 1,
+    "latency_s": 0.2,
+    "ttft_s": null,
+    "model": "demo-model",
+    "model_digest": null,
+    "cost_usd": 0.0,
+    "billing": "local"
+  }
+}

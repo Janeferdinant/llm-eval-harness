@@ -1,0 +1,31 @@
+{
+  "run_id": "2026-10-31T01-37-23Z-judge-claude-code-claude-sonnet-4-6-team-plan-100-labelled-answers",
+  "date": "2026-10-31",
+  "git_sha": "8100565",
+  "dirty": false,
+  "status": "Verified",
+  "title": "Judge: Claude Code (claude-sonnet-4-6, Team plan), 100 labelled answers (busy machine)",
+  "machine": {
+    "cpu": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "busy": true
+  },
+  "rows": [
+    {
+      "name": "rubric judge",
+      "value": 1.64,
+      "ci_low": 1.49,
+      "ci_high": 1.78,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "error rate",
+      "value": 0.0,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": ""
+    }
+  ]
+}

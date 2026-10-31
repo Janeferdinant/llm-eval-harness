@@ -1,0 +1,31 @@
+{
+  "run_id": "2026-10-30T20-21-04Z-token-f1-baseline-vs-labels",
+  "date": "2026-10-30",
+  "git_sha": "abb5275",
+  "dirty": false,
+  "status": "Verified",
+  "title": "Token F1 as a judge, against your labels (busy machine)",
+  "machine": {
+    "cpu": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "busy": true
+  },
+  "rows": [
+    {
+      "name": "token F1 baseline: Spearman with your labels",
+      "value": 0.8696153120975458,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "token F1 baseline: weighted kappa vs your labels",
+      "value": 0.8828647925033468,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": ""
+    }
+  ]
+}

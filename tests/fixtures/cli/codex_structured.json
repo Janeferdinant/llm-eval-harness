@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-30",
+  "cli": "codex",
+  "cli_version": "codex-cli 0.166.0",
+  "synthetic": false,
+  "argv": [
+    "codex",
+    "exec",
+    "--json",
+    "--skip-git-repo-check",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "-s",
+    "read-only",
+    "--output-schema",
+    "<HOME>\\AppData\\Local\\Temp\\tmp0mh34h5b.json",
+    "-"
+  ],
+  "stdout": "{\"type\":\"thread.started\",\"thread_id\":\"01a18e3e-38ef-7e22-9913-72f52f91ce0c\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"{\\\"score\\\":3,\\\"reasoning\\\":\\\"ok\\\"}\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":17094,\"cached_input_tokens\":0,\"cache_write_input_tokens\":0,\"output_tokens\":20,\"reasoning_output_tokens\":0}}\n",
+  "schema": {
+    "properties": {
+      "score": {
+        "type": "integer"
+      },
+      "reasoning": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "score",
+      "reasoning"
+    ],
+    "type": "object",
+    "additionalProperties": false
+  }
+}

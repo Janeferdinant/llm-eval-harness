@@ -1,0 +1,10 @@
+{"id": "q01", "input": {"question": "What is the capital of France?"}, "reference": "Paris", "tags": ["demo"]}
+{"id": "q02", "input": {"question": "What is 2+2?"}, "reference": "4", "tags": ["demo"]}
+{"id": "q03", "input": {"question": "What is the largest planet in the solar system?"}, "reference": "Jupiter", "tags": ["demo"]}
+{"id": "q04", "input": {"question": "What is the chemical formula of water?"}, "reference": "H2O", "tags": ["demo"]}
+{"id": "q05", "input": {"question": "Who wrote the play Hamlet?"}, "reference": "William Shakespeare", "tags": ["demo"]}
+{"id": "q06", "input": {"question": "What is the opposite of hot?"}, "reference": "cold", "tags": ["demo"]}
+{"id": "q07", "input": {"question": "What is the square root of 81?"}, "reference": "9", "tags": ["demo"]}
+{"id": "q08", "input": {"question": "What is the capital of Japan?"}, "reference": "Tokyo", "tags": ["demo"]}
+{"id": "q09", "input": {"question": "How many days are in a week?"}, "reference": "7", "tags": ["demo"]}
+{"id": "q10", "input": {"question": "What colour is the sky on a clear day?"}, "reference": "blue", "tags": ["demo"]}

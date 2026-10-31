@@ -1,0 +1,55 @@
+{
+  "run_id": "2026-10-31T01-51-49Z-judge-calibration-vs-labels-codex-cli-gpt-6-1-sol",
+  "date": "2026-10-31",
+  "git_sha": "4d876de",
+  "dirty": false,
+  "status": "Verified",
+  "title": "Judge calibration vs your labels: Codex CLI (gpt-6.1-sol) (busy machine)",
+  "machine": {
+    "cpu": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "busy": true
+  },
+  "rows": [
+    {
+      "name": "weighted kappa vs your labels, Codex CLI (gpt-6.1-sol)",
+      "value": 0.9820659971305595,
+      "ci_low": 0.9347258485639687,
+      "ci_high": 1.0,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "answer length vs judge score (Spearman), Codex CLI (gpt-6.1-sol)",
+      "value": -0.22437338722510936,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "answer length vs your labels (Spearman), Codex CLI (gpt-6.1-sol)",
+      "value": -0.19287923137475618,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "latency per judgement, Codex CLI (gpt-6.1-sol)",
+      "value": 4.143616638999994,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": "s"
+    },
+    {
+      "name": "cost per 100 judgements, API-equivalent (USD), Codex CLI (gpt-6.1-sol)",
+      "value": 3.4186560000000004,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": "USD"
+    }
+  ]
+}

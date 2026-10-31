@@ -1,0 +1,17 @@
+{
+  "request_hash": "90f6e21955cf0360466c9bc917ad80f53848930fc29f96fd90b4a82af6b7add7",
+  "recorded_at": "2026-10-30",
+  "completion": {
+    "text": "4",
+    "tool_calls": [],
+    "data": null,
+    "input_tokens": 3,
+    "output_tokens": 1,
+    "latency_s": 0.2,
+    "ttft_s": null,
+    "model": "demo-model",
+    "model_digest": null,
+    "cost_usd": 0.0,
+    "billing": "local"
+  }
+}

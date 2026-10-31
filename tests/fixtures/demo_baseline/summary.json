@@ -1,0 +1,55 @@
+{
+  "run_id": "2026-10-30T18-59-23Z-demo-baseline",
+  "date": "2026-10-30",
+  "git_sha": "165dc2a",
+  "dirty": true,
+  "status": "Verified",
+  "title": "demo baseline",
+  "machine": {
+    "cpu": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "busy": false
+  },
+  "rows": [
+    {
+      "name": "exact match",
+      "value": 0.7,
+      "ci_low": 0.4,
+      "ci_high": 1.0,
+      "n": 10,
+      "unit": ""
+    },
+    {
+      "name": "token F1",
+      "value": 0.8166666666666667,
+      "ci_low": 0.6,
+      "ci_high": 1.0,
+      "n": 10,
+      "unit": ""
+    },
+    {
+      "name": "error rate",
+      "value": 0.0,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 10,
+      "unit": ""
+    },
+    {
+      "name": "latency (s)",
+      "value": 0.2,
+      "ci_low": 0.2,
+      "ci_high": 0.2,
+      "n": 10,
+      "unit": "s"
+    },
+    {
+      "name": "cost per case, API-equivalent (USD)",
+      "value": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 10,
+      "unit": "USD"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "run_id": "2026-10-31T01-41-51Z-judge-codex-cli-gpt-6-1-sol-100-labelled-answers",
+  "date": "2026-10-31",
+  "git_sha": "8100565",
+  "dirty": true,
+  "status": "Verified",
+  "title": "Judge: Codex CLI (gpt-6.1-sol), 100 labelled answers (busy machine)",
+  "machine": {
+    "cpu": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "busy": true
+  },
+  "rows": [
+    {
+      "name": "rubric judge",
+      "value": 1.66,
+      "ci_low": 1.51,
+      "ci_high": 1.8,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "error rate",
+      "value": 0.0,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": ""
+    }
+  ]
+}

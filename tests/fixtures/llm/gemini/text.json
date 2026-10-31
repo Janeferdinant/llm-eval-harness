@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-30",
+  "source": "constructed from the installed SDK response types; not recorded from the live API",
+  "body": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "OK"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "modelVersion": "gemini-4-argon",
+    "usageMetadata": {
+      "candidatesTokenCount": 2,
+      "promptTokenCount": 10,
+      "totalTokenCount": 12
+    }
+  }
+}

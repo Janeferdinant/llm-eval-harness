@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-10-30",
+  "cli": "codex",
+  "cli_version": "n/a",
+  "synthetic": true,
+  "note": "Hand-written: a usage limit could not be reached on purpose. Shape follows the event types seen in real runs (rate_limit_event, result is_error; error and turn.failed events) and the CLIs' docs.",
+  "argv": [],
+  "stdout": "{\"type\": \"thread.started\", \"thread_id\": \"x\"}\n{\"type\": \"turn.started\"}\n{\"type\": \"error\", \"message\": \"You've hit your usage limit. Try again later.\"}\n{\"type\": \"turn.failed\", \"error\": {\"message\": \"You've hit your usage limit. Try again later.\"}}\n"
+}

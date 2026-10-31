@@ -1,0 +1,17 @@
+{
+  "request_hash": "0002dbab86d3561ceabb3cffed04ae7b986c222a849cc08e6e1754bcffac592a",
+  "recorded_at": "2026-10-30",
+  "completion": {
+    "text": "Jupiter",
+    "tool_calls": [],
+    "data": null,
+    "input_tokens": 9,
+    "output_tokens": 1,
+    "latency_s": 0.2,
+    "ttft_s": null,
+    "model": "demo-model",
+    "model_digest": null,
+    "cost_usd": 0.0,
+    "billing": "local"
+  }
+}

@@ -1,0 +1,3 @@
+scripts/prepublish_check.sh
+tests/test_repo_hygiene.py
+tests/test_runlog.py

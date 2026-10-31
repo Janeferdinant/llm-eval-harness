@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-10-30",
+  "cli": "claude",
+  "cli_version": "n/a",
+  "synthetic": true,
+  "note": "Hand-written: a usage limit could not be reached on purpose. Shape follows the event types seen in real runs (rate_limit_event, result is_error; error and turn.failed events) and the CLIs' docs.",
+  "argv": [],
+  "stdout": "{\"type\": \"system\", \"subtype\": \"init\", \"tools\": [], \"mcp_servers\": [], \"skills\": [], \"plugins\": [], \"model\": \"claude-sonnet-4-6\", \"claude_code_version\": \"2.1.195\"}\n{\"type\": \"rate_limit_event\", \"rate_limit_info\": {\"status\": \"rejected\", \"resetsAt\": 1793400600, \"rateLimitType\": \"five_hour\"}}\n{\"type\": \"result\", \"subtype\": \"success\", \"is_error\": true, \"api_error_status\": 429, \"result\": \"You've hit your limit \\u00b7 resets 3pm\", \"num_turns\": 1}\n"
+}

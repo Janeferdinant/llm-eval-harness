@@ -1,0 +1,47 @@
+{
+  "run_id": "2026-10-30T19-20-51Z-squad-2-0-answers-qwen3-8b-100-questions",
+  "date": "2026-10-30",
+  "git_sha": "3af7a09",
+  "dirty": false,
+  "status": "Verified",
+  "title": "SQuAD 2.0 answers, qwen3:8b (100 questions)",
+  "machine": {
+    "cpu": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "busy": false
+  },
+  "rows": [
+    {
+      "name": "SQuAD 2.0 F1",
+      "value": 0.799579365079365,
+      "ci_low": 0.7228535714285713,
+      "ci_high": 0.8717803571428571,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "error rate",
+      "value": 0.0,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "latency (s)",
+      "value": 0.07815141800016136,
+      "ci_low": 0.07157200367513088,
+      "ci_high": 0.08670386975018664,
+      "n": 100,
+      "unit": "s"
+    },
+    {
+      "name": "cost per case, API-equivalent (USD)",
+      "value": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 100,
+      "unit": "USD"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{"run_id": "2026-01-01T00-00-00Z-demo", "date": "2026-01-01", "git_sha": "abc1234", "dirty": false,
+ "status": "Verified", "title": "Demo run",
+ "machine": {"cpu": "test cpu", "gpu": null, "busy": false},
+ "rows": [{"name": "token F1", "value": 0.81, "ci_low": 0.79, "ci_high": 0.83, "n": 800, "unit": ""}]}

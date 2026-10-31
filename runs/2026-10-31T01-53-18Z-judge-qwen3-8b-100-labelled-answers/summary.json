@@ -1,0 +1,31 @@
+{
+  "run_id": "2026-10-31T01-53-18Z-judge-qwen3-8b-100-labelled-answers",
+  "date": "2026-10-31",
+  "git_sha": "4d876de",
+  "dirty": false,
+  "status": "Verified",
+  "title": "Judge: qwen3:8b, 100 labelled answers (busy machine)",
+  "machine": {
+    "cpu": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "busy": true
+  },
+  "rows": [
+    {
+      "name": "rubric judge",
+      "value": 1.68,
+      "ci_low": 1.54,
+      "ci_high": 1.81,
+      "n": 100,
+      "unit": ""
+    },
+    {
+      "name": "error rate",
+      "value": 0.0,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 100,
+      "unit": ""
+    }
+  ]
+}
