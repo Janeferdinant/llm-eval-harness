@@ -63,11 +63,11 @@ Run `2026-10-31T02-00-51Z-judge-calibration-vs-labels-codex-cli-gpt-6-1-sol`, co
 <!-- summary:end -->
 
 ## What this shows
-Status: **v0.1.0 is not tagged yet, and the repo has not been published.** The judge calibration study has been run (Summary above, Verified 2026-10-30 and 2026-10-31). CI has not run, because the repo only exists locally so far; the test status below is from a local run of `uv run pytest`.
+Status: **v0.1.0.** The judge calibration study has been run (Summary above, Verified 2026-10-30 and 2026-10-31). CI (GitHub Actions: ruff, `pytest`, and the README summary check, all on mocks) passed on 2026-10-31.
 
 What the Summary shows: how closely an LLM judge agrees with human labels on 100 question answering answers, for two local models, two subscription command line tools, and a token F1 baseline that needs no model. Each row is Verified by the run named under it. Nothing else in this README states a measured number.
 
-What exists and is tested (Verified by `uv run pytest` and CI on mocks, status label: Verified when CI is green):
+What exists and is tested (Verified by `uv run pytest` and by CI on mocks, 2026-10-31):
 - Suites and cases (`evalh run`), exact match and token F1 with SQuAD normalisation, JSON-schema validity, and a rubric judge.
 - Bootstrap confidence intervals, paired deltas, weighted Cohen's kappa, Spearman correlation.
 - A regression gate (`evalh gate`) that fails when a metric drops, goes missing or is NaN, or when the error rate rises.
